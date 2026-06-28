@@ -1,0 +1,73 @@
+.my-project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 7px;
+}
+.btn {
+  height: 43px;
+  width: 5%;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 20px;
+  background-color: aquamarine;
+  border: 1px solid transparent;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn:active {
+  background-color: #bbf3c0;
+  transform: scale(0.95);
+}
+.search {
+  height: 40px;
+  width: 20%;
+  font-weight: bold;
+  font-size: 16px;
+  outline: none;
+  border: 0.5px solid #c56187;
+  transition: all 0.3 ease;
+  border-radius: 5px;
+  padding-left: 10px;
+  border-color: #00f2fe;
+  box-shadow: 0 0 5px rgba(0, 242, 242, 0.8);
+  cursor: pointer;
+}
+.search:hover {
+  border-color: #27db78;
+}
+.search:focus {
+  border-color: #00f2fe;
+  box-shadow: 0 0 5px rgba(197, 7, 96, 0.8);
+}
+h1 {
+  display: flex;
+  justify-content: center;
+}
+.todo-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(218, 127, 218);
+  border: 1px solid #970fc0;
+  border-radius: 6px;
+  padding: 10px 15px;
+  margin: 12px auto;
+  width: 25%;
+  color: white;
+}
+span {
+  margin-right: 200px;
+  color: #000000;
+  font-weight: 250px;
+  text-align: left;
+  width: 32%;
+}
+.del-btn {
+  border: none;
+  font-size: 17px;
+  background-color: rgb(218, 127, 218);
+  cursor: pointer;
+}
